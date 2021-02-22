@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.calculator {
+    width : 340px;
+    height : 550px;
+    background-color : #444;
+    color : white;
+    font-weight : bold;
+    font-size : 2.1rem;
+}
+
+.displayBoard {
+    position : relative;
+    height : 150px;
+}
+
+.result {
+    position : absolute;
+    right : 0;
+    bottom : 0;
+    margin : 0 30px 5px 0;
+    font-size : 3rem;
+}
+
+.numberBoard {
+    width : 100%;
+    height : 400px;
+}
+
+.row {
+    display : flex;
+    flex-direction : row;
+    height : 80px;
+}
+
+.ele {
+    flex-basis : 25%;
+    cursor : pointer;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    border : 1px solid #444;
+    
+}
+
+.ele2 {
+    flex-basis : 50%;
+    cursor : pointer;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    border : 1px solid #444;
+}
+
+.inner {
+    
+}
