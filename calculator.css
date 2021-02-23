@@ -56,13 +56,34 @@
 
 .ele2 {
     flex-basis : 50%;
+    border : 1px solid #444;
     cursor : pointer;
     display : flex;
     align-items : center;
     justify-content: center;
-    border : 1px solid #444;
 }
 
-.inner {
-    
+.subBtn {
+    background-color: #555;
 }
+
+.subBtn:active {
+    background-color: #777;
+}
+
+.numberBtn {
+    background-color: #777;
+}
+
+.numberBtn:active {
+    background-color : #AAA;
+}
+
+.operator {
+    background-color: #ffa550;
+}
+
+.operator:active {
+    background-color: #dd8500;
+}
+
